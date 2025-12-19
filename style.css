@@ -1,12 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Courier New", monospace;
+    background-color: #000;
+    color: #00ff00;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #111;
-    color: #fff;
 }
 
 .game-container {
@@ -14,28 +14,29 @@ body {
 }
 
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#aiHint {
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 
 #gameCanvas {
-    border: 2px solid #fff;
-    background-color: #000;
+    border: 3px solid #00ff00;
+    background-color: #111;
 }
 
 #score {
-    font-size: 24px;
-    margin: 20px 0;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 #gameOver {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.85);
     padding: 20px;
-    border-radius: 10px;
-    text-align: center;
+    border-radius: 8px;
 }
 
 .hidden {
@@ -43,15 +44,9 @@ h1 {
 }
 
 #restartBtn {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
     cursor: pointer;
 }
 
-#restartBtn:hover {
-    background-color: #45a049;
-}
