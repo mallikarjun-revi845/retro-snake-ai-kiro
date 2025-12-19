@@ -1,0 +1,5 @@
+Kiro assisted in generating the Snake game logic,
+optimizing movement and collision detection.
+
+It also helped design an AI-based hint system
+that predicts unsafe moves and alerts the player.
